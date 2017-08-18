@@ -85,9 +85,9 @@
     #Set the working directories
     
     wd_scripts <- config$test_wd_scripts
-    wd_sql <- config$wd_sql
-    wd_csv <- config$wd_csv
-    wd_json <- config$wd_json
+    wd_sql <- config$test_wd_sql
+    wd_csv <- config$test_wd_csv
+    wd_json <- config$test_wd_json
 
 #1 - Data Extraction####
     

@@ -14,13 +14,13 @@ config_py = pandas.read_json("config.json", typ='series')
 
 #set parameters
 
-my_address = config_py["ckan_url"]
-my_api_key = config_py["ckan_api_key"]
-wd_packages = config_py["wd_metadata"]
+my_address = config_py["test_ckan_url"]
+my_api_key = config_py["test_ckan_api_key"]
+wd_packages = config_py["test_wd_metadata"]
 
 #Remove the config_py object
 
-#del config_py
+del config_py
 
 # Create connection object
 

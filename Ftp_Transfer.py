@@ -23,14 +23,14 @@ ftp.login(user=user_name, passwd=password)
 
 	#Change directory to local directory of CSV files
 	
-os.chdir(config_py['wd_csv'])	
+os.chdir(config_py['test_wd_csv'])	
 
 	#Capture all csv-files
 csv_files = os.listdir()
 
 	#Navigate to directory on ftp-server
 	
-ftp.cwd(config_py['ftp_csv_directory'])
+ftp.cwd(config_py['test_ftp_csv_directory'])
 
 for i in csv_files:
 	ftp.storbinary('STOR '+i, open(i,'rb'))

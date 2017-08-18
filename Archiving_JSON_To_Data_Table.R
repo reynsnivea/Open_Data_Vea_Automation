@@ -35,9 +35,9 @@ archive <- function(){
   # main_wd <- readline(prompt="Locatie bronmap met alle datasets: ")
   # source_wd <- readline(prompt="Locatie doelmap CSV met alle metadata: ")
 
-  wd_metadata  <-  config$wd_metadata
-  wd_fielddata <-  config$wd_fielddata
-  wd_log       <-  config$wd_log
+  wd_metadata  <-  config$test_wd_metadata
+  wd_fielddata <-  config$test_wd_fielddata
+  wd_log       <-  config$test_wd_log
   
   
   #Get all JSON-files. Those files contain the metadata and the data description of the 
