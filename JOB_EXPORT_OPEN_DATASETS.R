@@ -84,7 +84,7 @@
 
     #Set the working directories
     
-    wd_scripts <- config$wd_scripts
+    wd_scripts <- config$test_wd_scripts
     wd_sql <- config$wd_sql
     wd_csv <- config$wd_csv
     wd_json <- config$wd_json
