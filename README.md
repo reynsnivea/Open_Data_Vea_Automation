@@ -79,6 +79,9 @@ in the metadata of the dataset (JSON-format) is updated.
 The data is transfered using FTP and the metadata is updated by calling the API
 of the CKAN open data portal.
 
+All parameters used in this and the other scripts are determined in the 
+config.json file.
+
 ### 2.2 Ftp_Transfer.py
 
 Transfering files to the FTP-server is achieved by this python script.
